@@ -1,4 +1,5 @@
 # Multi-stage build
+ARG FEDORA_MAJOR_VERSION="${FEDORA_MAJOR_VERSION:-37}"
 
 ## Build ublue-os-base
 FROM quay.io/fedora-ostree-desktops/kinoite-nightly:${FEDORA_MAJOR_VERSION}
